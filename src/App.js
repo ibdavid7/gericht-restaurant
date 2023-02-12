@@ -1,11 +1,21 @@
 import './App.css';
-import React from 'react'
+import React from 'react';
+import { Navbar } from './components/index';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container/index';
 
 const App = () => {
   return (
     <div className='App'>
-      
-      <h1>Hello World!</h1>
+      <Navbar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   )
 }
